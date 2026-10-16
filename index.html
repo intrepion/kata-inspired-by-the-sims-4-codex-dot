@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#23473d" />
+    <title>Hearth & Hollow · Juniper House</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="brand">
+          <span class="mark">⌂</span>
+          <div>
+            <h1>hearth & hollow</h1>
+            <p>A LITTLE LIFE AT JUNIPER HOUSE</p>
+          </div>
+        </div>
+        <div id="clock"></div>
+        <nav>
+          <button id="help">? Guide</button><button id="save">Save</button
+          ><button id="buy">＋ Buy nook · 90</button>
+        </nav>
+      </header>
+      <main>
+        <section id="world" aria-label="Interactive three dimensional home">
+          <div class="scene-caption">
+            <span>01 / JUNIPER HOUSE</span>
+            <h2>Make room for a little life.</h2>
+            <p>Two housemates. One home. Your rhythm.</p>
+          </div>
+          <div id="labels"></div>
+          <div id="context" hidden></div>
+          <div class="camera">
+            <button id="left" aria-label="Rotate camera left">↶</button
+            ><button id="right" aria-label="Rotate camera right">↷</button
+            ><button id="zoomIn" aria-label="Zoom in">＋</button
+            ><button id="zoomOut" aria-label="Zoom out">−</button
+            ><button id="homeCamera">⌂ View</button>
+          </div>
+          <div id="toast" role="status"></div>
+        </section>
+        <aside>
+          <div class="eyebrow">THE HOUSEHOLD</div>
+          <div id="portraits"></div>
+          <div id="person"></div>
+          <div id="needs"></div>
+          <div class="relationship">
+            <span>Mira & Rowan</span><strong id="bond"></strong
+            ><small>Friendship grows through conversation.</small>
+          </div>
+          <div class="eyebrow queue-title">
+            ACTION QUEUE <small>click × to cancel</small>
+          </div>
+          <div id="queue"></div>
+          <div class="eyebrow">LITTLE MOMENTS</div>
+          <div id="log"></div>
+        </aside>
+      </main>
+      <footer>
+        <div>
+          <span class="live-dot"></span><b id="mode">LIVE MODE</b
+          ><span id="funds"></span>
+        </div>
+        <div class="speeds">
+          <button data-speed="0" aria-label="Pause">Ⅱ</button
+          ><button data-speed="1" aria-label="Normal speed">▶</button
+          ><button data-speed="2" aria-label="Double speed">▶▶</button
+          ><button data-speed="3" aria-label="Triple speed">▶▶▶</button>
+        </div>
+        <p>
+          Click a person or furnishing · Q / E orbit · scroll to zoom · Space
+          pauses
+        </p>
+      </footer>
+    </div>
+    <dialog id="guide">
+      <button id="closeHelp" class="close">×</button>
+      <div class="eyebrow">WELCOME HOME</div>
+      <h2>A day, at your own pace.</h2>
+      <p>
+        Select Mira or Rowan. Click furniture in the home and choose its
+        interaction. Your housemate walks there before using it. Click open
+        floor to walk.
+      </p>
+      <p>
+        Actions join the selected person's queue; cancel any with ×. Needs fall
+        over time. Idle housemates automatically look after a need below 35.
+        Friendly chats restore both people's social need and grow their
+        friendship.
+      </p>
+      <p>
+        <b>Camera:</b> Q / E or ↶ / ↷ rotate, scroll or ＋ / − zoom. Arrow keys
+        pan. ⌂ View resets. <b>Time:</b> Space or 0 pauses; 1 / 2 / 3 set speed.
+      </p>
+      <p>
+        <b>Buy:</b> pauses the home; finish or cancel all queues, then click a
+        free floor square to place a 90-credit reading nook. Escape exits.
+        Essential paths must stay open.
+      </p>
+      <p>
+        Meals cost 8. Start with 420 credits. Save manually or let autosave run
+        every 10 seconds. Progress stays in this browser. No game over: this is
+        a small household sandbox.
+      </p>
+      <p class="fineprint">
+        An original learning project inspired by The Sims 4. Not affiliated with
+        or endorsed by EA. See README for sourced mechanics and simplifications.
+      </p>
+    </dialog>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
