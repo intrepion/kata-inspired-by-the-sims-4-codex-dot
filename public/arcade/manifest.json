@@ -1,6 +1,27 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-inspired-by-the-sims-4-codex-dot",
   "playUrl": "https://intrepion.github.io/kata-inspired-by-the-sims-4-codex-dot/",
-  "screenshots": []
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/ci-20261103-01.jpg",
+      "sha256": "709bd2c3a1023e9c1c8b392e32b421cdb94eb3b436f21e8894bb20b36af8fc2a",
+      "alt": "Hearth & Hollow gameplay",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261103-01.png",
+        "sourceSha256": "0eb800c028ad6a85fcc8f92c16b0c9b9db6054ecd3f855b8a74e5a3b930861ac",
+        "captureCommit": "10603931280e21b26cc5717f86f39f4c15c99f66",
+        "workflowRunId": "41618870306",
+        "inputHashes": {
+          "assets/index-BoBO2X37.js": "c6a3f02973d4416e325c28ae22c8a1b6b888c6f6d66da0df08aeaaef46445d97",
+          "assets/index-z8eKAJFt.css": "a8256b890878832ad960c9a9398e76dbe5eb19801c6fc782ba407809b72f1b84",
+          "index.html": "aef1dd8dac2f9aca4705ea2e248771c1bb6f1e0390b5d7fd8c34cf95e82c2a80"
+        },
+        "publishedFilesVerifiedAt": "2026-11-03T10:26:28Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261103-record.json",
+        "captureRecordSha256": "5cd59ba4b9134f301f8f2dace577e302cec22a0c3d932342d7b9885b9770fdfc"
+      }
+    }
+  ]
 }
