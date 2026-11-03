@@ -74,3 +74,7 @@ Root `.gitignore` includes the current official [Linux](https://github.com/githu
 ## License
 
 [MIT](LICENSE). Three.js, Vite and other dependencies retain their own licenses. Optional Google Fonts supply DM Sans and Libre Caslon Display; system/Georgia fallbacks work if unavailable.
+
+## Play online
+
+[Play on GitHub Pages](https://intrepion.github.io/kata-inspired-by-the-sims-4-codex-dot/). Return to the [Kata Arcade](https://intrepion.github.io/).
