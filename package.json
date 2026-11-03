@@ -10,7 +10,7 @@
     "check": "node --check src/sim.js && node --check src/main.js"
   },
   "dependencies": {
-    "three": "0.180.0"
+    "three": "0.187.0"
   },
   "devDependencies": {
     "prettier": "3.6.2",
